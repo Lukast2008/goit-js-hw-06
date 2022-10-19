@@ -11,11 +11,9 @@ targetBtnDecrement.addEventListener("click", handleDecrementClick);
 targetBtnIncrement.addEventListener("click", handleIncrementClick);
 
 function handleDecrementClick() {
-  counterValue -= 1;
-  changeValue.textContent = counterValue;
+  changeValue.textContent = counterValue -= 1;
 }
 
 function handleIncrementClick() {
-  counterValue += 1;
-  changeValue.textContent = counterValue;
+  changeValue.textContent = counterValue += 1;
 }
