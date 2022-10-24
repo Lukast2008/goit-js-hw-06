@@ -9,14 +9,14 @@ const ingredients = [
   "Condiments",
 ];
 
-const elUl = document.querySelector("ul");
+const list = document.querySelector("ul");
 
 const listItem = document.createElement("li");
 
 for (let i = 0; i < ingredients.length; i += 1) {
   const listItem = document.createElement("li");
   listItem.textContent = ingredients[i];
-  elUl.append(listItem);
+  list.append(listItem);
 }
 
-console.log(elUl);
+console.log(list);

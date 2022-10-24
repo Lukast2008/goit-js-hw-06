@@ -10,8 +10,3 @@ for (let i of list) {
   console.log(`Category: ${i.firstElementChild.textContent}`);
   console.log(`Elements: ${i.children[1].childElementCount}`);
 }
-
-// let mass = [];
-// let categ = 0;
-// console.log(mass);
-// mass.push([{ Catecory: i.firstElementChild.textContent }]);
