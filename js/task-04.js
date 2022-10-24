@@ -8,8 +8,6 @@ const changeValue = document.querySelector('[id="value"]');
 
 targetBtnDecrement.addEventListener("click", handleDecrementClick);
 
-console.log(targetBtnDecrement);
-
 targetBtnIncrement.addEventListener("click", handleIncrementClick);
 
 function handleDecrementClick() {
